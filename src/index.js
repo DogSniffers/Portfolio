@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Nav from './Components/Nav/Nav'
+import Info from './Components/Info/Info'
 import * as serviceWorker from './serviceWorker';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Nav />
+    <Info />
   </React.StrictMode>,
   document.getElementById('root')
 );
