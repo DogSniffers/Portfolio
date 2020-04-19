@@ -1,15 +1,35 @@
-import React from 'react'
-import './Nav.css'
+import React, { useState } from 'react'
+import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu'
+import { MenuItem } from '@material-ui/core';
 
-function Nav(){
+
+function Nav(props){
+    const [anchorEl, setAnchorEl] = useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+    
+
     return(
-        <div className='navbar'>
-            <h1>Nav</h1>
-            <div className='contactInfo'>
-                <h2>Contact Me:</h2>
-                <li><a href='mailto:noahvanbeezie@gmail.com'>Email</a></li>
-            </div>
-        </div>
+        <>
+        <Button aria-controls="menu" aria-haspopup="true" onClick={handleClick} >Navigation</Button>
+        <Menu 
+            id="menu"
+            anchorEl={anchorEl}
+            keepMounted
+            open={Boolean(anchorEl)}
+            onClose={handleClose}>
+                <MenuItem onClick={handleClose}>Test</MenuItem>
+                <MenuItem onClick={handleClose}>Test 2</MenuItem>
+        </Menu>
+        </>
     )
 }
 export default Nav
+
