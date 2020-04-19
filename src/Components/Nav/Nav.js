@@ -12,8 +12,9 @@ import './Nav.css'
   return (
     <div className='navbar'>
         <h1>Navigation</h1>
-        <Button>Test 1</Button>
-        <Button>Test 2</Button>
+        <Button>Skills</Button>
+        <Button>Projects</Button>
+        <Button>Contact</Button>
       
       
     </div>

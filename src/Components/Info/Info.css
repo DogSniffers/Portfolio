@@ -3,4 +3,8 @@
   width: 100vh;
   height: 100vh;
 }
+
+.subtitle {
+  border-bottom: black 2px solid;
+}
 /*# sourceMappingURL=Info.css.map */
