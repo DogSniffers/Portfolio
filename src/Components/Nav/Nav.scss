@@ -1,7 +1,6 @@
+@import '../Sass//mixin';
+
 .navbar{
-    background-color: aqua;
-    border: crimson 5px solid;
-    display: flex;
-    position: sticky;
-    top: 0px;
+    @include border();
+    
 }

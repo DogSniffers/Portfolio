@@ -1,8 +1,11 @@
+@import '../Sass//mixin';
+
 .info{
     background-color: aqua;
     width: 100vh;
     height: 100vh;
 }
 .subtitle{
+    @include titleText();
     border-bottom: black 2px solid;
 }
