@@ -1,0 +1,11 @@
+.navbar {
+  background-color: aqua;
+  border: crimson 5px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+/*# sourceMappingURL=Nav.css.map */
