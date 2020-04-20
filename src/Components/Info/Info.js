@@ -56,14 +56,10 @@ function Info(){
             </div>
             <div>
                 <h1 className='subtitle'>Contact</h1>
-                <div>
-                    <Button>GitHub</Button>
-                </div>
-                <div>
-                    <Button>LinkedIn</Button>
-                </div>
-                <div>
-                    <Button>Email</Button>
+                <div className='linkButtons'>
+                    <Button variant='outlined' color='secondary' size='large' target='newTab' href='https://github.com/DogSniffers'>GitHub</Button>
+                    <Button variant='outlined' color='red' size='large' target='newTab' href='https://www.linkedin.com/in/noah-van-buskirk-221762161/'>LinkedIn</Button>
+                    <Button variant='outlined' size='large' >Email</Button>
                 </div>
             </div>
         </div>
