@@ -26,28 +26,72 @@ function Info(){
             <div>
                 <h1 className='subtitle'>Skills</h1>
                 <div>
-                    <h2>Languages</h2>
-                    <p>Javascript</p>
+                    <h2>Languages:</h2>
+                    <ul className='skillsLists'>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>Javascript</p>
+                        </div>
+                    </ul>
                 </div>
                 <div>
-                    <h2>Front-End</h2>
-                    <p>React</p>
-                    <p>HTML</p>
-                    <p>CSS</p>
+                    <h2>Front-End:</h2>
+                    <ul className='skillsLists'>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>React</p>
+                        </div>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>HTML</p>
+                        </div>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>CSS</p>
+                        </div>
+                    </ul>
                 </div>
                 <div>
-                    <h2>Back-End</h2>
-                    <p>Node.js</p>
-                    <p>SQL Tabs</p>
-                    <p>React Redux</p>
+                    <h2>Back-End:</h2>
+                    <ul className='skillsLists'>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>Node.js</p>
+                        </div>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>SQL Tabs</p>
+                        </div>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>React Redux</p>
+                        </div>
+                    </ul>
                 </div>
                 <div>
-                    <h2>Additional Technologies</h2>
-                    <p>Axios</p>
-                    <p>Sass</p>
-                    <p>Chart.js</p>
-                    <p>Socket.io</p>
-                    <p>Material Ui</p>
+                    <h2>Additional Technologies:</h2>
+                    <ul className='skillsLists'>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>Axios</p>
+                        </div>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>Sass</p>
+                        </div>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>Chart.js</p>
+                        </div>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>Socket.io</p>
+                        </div>
+                        <div className='skillsContent'>
+                            <img></img>
+                            <p>Material Ui</p>
+                        </div>
+                    </ul>
                 </div>
             </div>
             <div className='project'>
