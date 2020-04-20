@@ -8,4 +8,13 @@
   font-family: "Comic Sans MS", cursive, sans-serif;
   border-bottom: black 2px solid;
 }
+
+.project {
+  border: darkblue 2px solid;
+  margin-bottom: 2px;
+}
+
+.projectInfo {
+  border-top: darkblue 2px solid;
+}
 /*# sourceMappingURL=Info.css.map */

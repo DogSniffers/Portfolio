@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button'
+import Box from '@material-ui/core/Box'
 import './Info.css'
 
 function Info(){
@@ -7,6 +8,7 @@ function Info(){
         <div>
             <div>
                 <h1 className='subtitle'>Info</h1>
+                <h2>About me:</h2>
             </div>
             <div>
                 <h1 className='subtitle'>Skills</h1>
@@ -36,18 +38,20 @@ function Info(){
                 </div>
             </div>
             <div>
+                <Box>
                 <h1 className='subtitle'>Projects</h1>
                 <div>
                     <h2>Personal Project</h2>
                     <h3>The Gauntlet</h3>
                     <h4>Info</h4>
-                    <p>Project Info</p>
+                    <p className='projectInfo'>Project Info</p>
                 </div>
-                <div>
+                </Box>
+                <div className='project'>
                     <h2>Group Project</h2>
                     <h3>Boardgame App</h3>
                     <h4>Info</h4>
-                    <p>Project Info</p>
+                    <p className='projectInfo'>Project Info</p>
                 </div>
             </div>
             <div>
