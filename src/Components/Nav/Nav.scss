@@ -2,5 +2,11 @@
 
 .navbar{
     @include border();
+    @include divBackground();
+    @include flex();
+    flex-direction: column;
+    position: sticky;
+    top:5px;
+    width: 450px;
     
 }
