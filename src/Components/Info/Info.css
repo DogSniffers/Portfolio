@@ -3,7 +3,6 @@ body {
 }
 
 .info {
-  background-color: aqua;
   width: 100vh;
   height: 100vh;
 }
@@ -14,11 +13,23 @@ body {
 }
 
 .project {
-  border: darkblue 2px solid;
-  margin-bottom: 2px;
+  border: black 2px solid;
+  padding: 5px;
 }
 
 .projectInfo {
-  border-top: darkblue 2px solid;
+  border-top: black 2px solid;
+}
+
+.linkButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=Info.css.map */

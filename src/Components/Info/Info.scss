@@ -4,7 +4,6 @@
      margin-top: 120px;
  }
 .info{
-    background-color: aqua;
     width: 100vh;
     height: 100vh;
 }
@@ -13,9 +12,13 @@
     border-bottom: black 2px solid;
 }
 .project{
-    border: darkblue 2px solid;
-    margin-bottom: 2px;
+    border: black 2px solid;
+    padding: 5px;
 }
 .projectInfo{
-    border-top: darkblue 2px solid;
+    border-top: black 2px solid;
+}
+.linkButtons{
+    @include flex();
+    justify-content: space-evenly;
 }
