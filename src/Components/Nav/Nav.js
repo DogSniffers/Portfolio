@@ -31,7 +31,7 @@ const styles = makeStyles({
   return (
     <AppBar className={style.navBar}>
         <div>
-            <h1>Navigation</h1>
+            <h1>Noah Van Buskirk</h1>
             <Button className={style.button}>Skills</Button>
             <Button className={style.button}>Projects</Button>
             <Button className={style.button}>Contact</Button>
