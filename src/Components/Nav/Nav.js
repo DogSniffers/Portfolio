@@ -35,10 +35,10 @@ const styles = makeStyles({
     <AppBar className={style.navBar}>
         <div>
             <h1>Noah Van Buskirk</h1>
-            <Button className={style.button}><AnchorLink href='#info' offset='160px'>Info</AnchorLink></Button>
-            <Button className={style.button}><AnchorLink href='#skills' offset='130px'>Skills</AnchorLink></Button>
-            <Button className={style.button}><AnchorLink href='#projects' offset='130px'>Projects</AnchorLink></Button>
-            <Button className={style.button}><AnchorLink href='#contact'>Contact</AnchorLink></Button>
+            <AnchorLink href='#info' offset='130px'><Button className={style.button}>Info</Button></AnchorLink>
+            <AnchorLink href='#skills' offset='130px'><Button className={style.button}>Skills</Button></AnchorLink>
+            <AnchorLink href='#projects' offset='130px'><Button className={style.button}>Projects</Button></AnchorLink>
+            <AnchorLink href='#contact'><Button className={style.button}>Contact</Button></AnchorLink>
         </div>
     </AppBar>
       
