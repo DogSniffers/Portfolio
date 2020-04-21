@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from '@material-ui/core/Button'
 import AppBar from '@material-ui/core/AppBar'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { makeStyles } from '@material-ui/core/styles'
 import './Nav.css'
 
@@ -14,6 +15,8 @@ const styles = makeStyles({
         backgroundColor:'#424242',
         border:'2',
         width:'14vh',
+        padding:'5px',
+        margin:'5px',
         '&:hover':{
             backgroundColor:'#616161'
         }
@@ -32,9 +35,10 @@ const styles = makeStyles({
     <AppBar className={style.navBar}>
         <div>
             <h1>Noah Van Buskirk</h1>
-            <Button className={style.button}>Skills</Button>
-            <Button className={style.button}>Projects</Button>
-            <Button className={style.button}>Contact</Button>
+            <Button className={style.button}><AnchorLink href='#info' offset='160px'>Info</AnchorLink></Button>
+            <Button className={style.button}><AnchorLink href='#skills' offset='130px'>Skills</AnchorLink></Button>
+            <Button className={style.button}><AnchorLink href='#projects' offset='130px'>Projects</AnchorLink></Button>
+            <Button className={style.button}><AnchorLink href='#contact'>Contact</AnchorLink></Button>
         </div>
     </AppBar>
       

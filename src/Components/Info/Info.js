@@ -8,7 +8,7 @@ const styles = makeStyles({
         color:'#212121',
         backgroundColor:'#424242',
         border:'2',
-        width:'14vh',
+        width:'18vh',
         '&:hover':{
             backgroundColor:'#616161'
         }
@@ -19,11 +19,11 @@ function Info(){
     const style = styles();
     return(
         <div>
-            <div>
+            <div id='info'>
                 <h1 className='subtitle'>Info</h1>
                 <h2>About me:</h2>
             </div>
-            <div>
+            <div id='skills'>
                 <h1 className='subtitle'>Skills</h1>
                 <div>
                     <h2>Languages:</h2>
@@ -94,7 +94,7 @@ function Info(){
                     </ul>
                 </div>
             </div>
-            <div className='project'>
+            <div id='projects' className='project'>
                 <h1 className='subtitle'>Projects</h1>
                 <div>
                     <h2>Personal Project</h2>
@@ -106,7 +106,7 @@ function Info(){
                         </p>
                         <p>The app itself is a game that can be infinitely generated, and allows the user to create and add their own creatures into the game. The game plays similarly to Pokemon, by which their are turns for the player, and then the creature and all attacks hold 'types', and every creature/class hold their own weaknesses and resistances to these types. I also was able to implement color theme changes into the app through the use of Redux and conditional classes.
                         </p>
-                        <Button>Github Link</Button>
+                        <Button href='https://github.com/DogSniffers/Personal-Project-The-Gauntlet' target='newPage' variant='outlined' className={style.button}>Github Link</Button>
 
                     </div>
                 </div>
@@ -124,10 +124,10 @@ function Info(){
                         </p>
                         <p>The app consists as a holder for online Boardgames. The initial plan for the app was to create chess, then add more games as we progressed. It proved difficult to implement chess, as there is a lot of behind the scenes logic that needs to be in place for each piece, so we were only able to get two games out before the due-date: Chess and Tic-Tac-Toe. My role in this project was to learn how to implement Socket.io into the app so that the user will be able to play with others online once the site is hosted. </p>
                     </div>
-                    <Button>Github Link</Button>
+                    <Button href='https://github.com/Board-Game-Group-Project/Boardgames' target='newPage' variant='outlined' className={style.button}>Github Link</Button>
                 </div>
             </div>
-            <div>
+            <div id='contact'>
                 <h1 className='subtitle'>Contact</h1>
                 <div className='linkButtons'>
                     <Button variant='outlined' size='large' target='newTab' href='https://github.com/DogSniffers' className={style.button}>GitHub</Button>
