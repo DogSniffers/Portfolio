@@ -132,7 +132,7 @@ function Info(){
                 <div className='linkButtons'>
                     <Button variant='outlined' size='large' target='newTab' href='https://github.com/DogSniffers' className={style.button}>GitHub</Button>
                     <Button variant='outlined' size='large' target='newTab' href='https://www.linkedin.com/in/noah-van-buskirk-221762161/' className={style.button}>LinkedIn</Button>
-                    <Button variant='outlined' size='large' className={style.button}>Email</Button>
+                    <Button variant='outlined' size='large' className={style.button}href='mailto:noahvanbeezie@gmail.com'>Email</Button>
                 </div>
             </div>
         </div>
