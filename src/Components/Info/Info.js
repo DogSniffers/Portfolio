@@ -21,7 +21,14 @@ function Info(){
         <div>
             <div id='info'>
                 <h1 className='subtitle'>Info</h1>
+                <div>
                 <h2>About me:</h2>
+                <p>I've always had an interest in Computer technology, beginning at a young age with the introduction to PC gaming. I found enjoyment in figuring out ways to apply already made mods into games or apps, which itself created a lot of room for the game or app itself to begin to break which then required me to figure out ways to fix the program, or simply learn new ways to edit and manage basic file structure bugs. </p>
+                <p>Web Development has been extremely fun for me, as it's fascinating learning new technologies and being able to analyze potential ways that companies have set up their own software, and learning ways to apply these technologies into my own apps.
+                </p>
+                <p>I consider myself a creative individual, with deep interests in the arts, experimenting in drawing, instrument, and music production softwares. Web Development has giving me an excellent outlet for experimentation and implementation of my ideas in a more virtual sense, and even allows me to express these ideas in ways that I never thought possible!
+                </p>
+                </div>
             </div>
             <div id='skills'>
                 <h1 className='subtitle'>Skills</h1>
@@ -99,7 +106,6 @@ function Info(){
                 <div>
                     <h2>Personal Project</h2>
                     <h3>The Gauntlet</h3>
-                    <h4>Info</h4>
                     <div className='projectInfo'>
                         <p>Project Info:</p>
                         <p>This was my Solo project through DevMountain. The app  utilized React, React Redux, Node.js, SQL tabs, and React-Router-Dom. Additionally I learned two additional technologies for this project, Sass and Chart.js.
@@ -110,10 +116,9 @@ function Info(){
 
                     </div>
                 </div>
-                <div>
+                <div className='projectInfo'>
                     <h2>Group Project</h2>
                     <h3>Boardgame App</h3>
-                    <h4>Info</h4>
                     <div className='projectInfo'>
                         <p>Project Info:</p>
                         <p></p>
