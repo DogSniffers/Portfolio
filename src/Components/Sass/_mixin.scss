@@ -2,14 +2,24 @@
     display: flex;
     justify-content: center;
 }
+@mixin contentBackgroundColor(){
+    background-color: #78909c;
+}
 @mixin titleText(){
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 @mixin borderBottom(){
     border-bottom: black 2px solid;
 }
-@mixin border(){
+@mixin borderAround(){
     border: black 2px solid;
+    border-radius: 8px;
+}
+@mixin borderTop(){
+    border-top: black 2px solid;
+}
+@mixin border(){
+    border-bottom: black 2px solid;
 }
 @mixin divBackground(){
     background-color: darkblue;

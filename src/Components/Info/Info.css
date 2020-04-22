@@ -1,5 +1,5 @@
 body {
-  margin-top: 120px;
+  margin-top: 130px;
 }
 
 .info {
@@ -7,14 +7,28 @@ body {
   height: 100vh;
 }
 
+.aboutMe {
+  border: black 2px solid;
+  border-radius: 8px;
+  background-color: #78909c;
+}
+
 .subtitle {
   font-family: "Comic Sans MS", cursive, sans-serif;
   border-bottom: black 2px solid;
 }
 
+.skillsSection {
+  border: black 2px solid;
+  border-radius: 8px;
+  background-color: #78909c;
+  margin-bottom: 8px;
+}
+
 .project {
   border: black 2px solid;
-  padding: 5px;
+  border-radius: 8px;
+  background-color: #78909c;
 }
 
 .projectInfo {

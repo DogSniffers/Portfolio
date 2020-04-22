@@ -34,7 +34,7 @@ const styles = makeStyles({
   return (
     <AppBar className={style.navBar}>
         <div>
-            <h1>Noah Van Buskirk</h1>
+            <h1 className='name'>Noah Van Buskirk</h1>
             <AnchorLink href='#info' offset='130px'><Button className={style.button}>Info</Button></AnchorLink>
             <AnchorLink href='#skills' offset='130px'><Button className={style.button}>Skills</Button></AnchorLink>
             <AnchorLink href='#projects' offset='130px'><Button className={style.button}>Projects</Button></AnchorLink>

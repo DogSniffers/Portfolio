@@ -1,22 +1,31 @@
 @import '../Sass//mixin';
 
  body{
-     margin-top: 120px;
+     margin-top: 130px;
  }
 .info{
     width: 100vh;
     height: 100vh;
 }
+.aboutMe{
+    @include borderAround();
+    @include contentBackgroundColor();
+}
 .subtitle{
     @include titleText();
     border-bottom: black 2px solid;
 }
+.skillsSection{
+    @include borderAround();
+    @include contentBackgroundColor();
+    margin-bottom: 8px;
+}
 .project{
-    border: black 2px solid;
-    padding: 5px;
+    @include borderAround();
+    @include contentBackgroundColor();
 }
 .projectInfo{
-    border-top: black 2px solid;
+    @include borderTop();
 }
 .linkButtons{
     @include flex();
