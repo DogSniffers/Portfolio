@@ -37,7 +37,7 @@ function Info(){
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>Javascript</p>
+                            <p className='techName'>Javascript</p>
                         </div>
                     </ul>
                 </div>
@@ -46,15 +46,15 @@ function Info(){
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>React</p>
+                            <p className='techName'>React</p>
                         </div>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>HTML</p>
+                            <p className='techName'>HTML</p>
                         </div>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>CSS</p>
+                            <p className='techName'>CSS</p>
                         </div>
                     </ul>
                 </div>
@@ -63,15 +63,15 @@ function Info(){
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>Node.js</p>
+                            <p className='techName'>Node.js</p>
                         </div>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>SQL Tabs</p>
+                            <p className='techName'>SQL Tabs</p>
                         </div>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>React Redux</p>
+                            <p className='techName'>React Redux</p>
                         </div>
                     </ul>
                 </div>
@@ -80,29 +80,29 @@ function Info(){
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>Axios</p>
+                            <p className='techName'>Axios</p>
                         </div>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>Sass</p>
+                            <p className='techName'>Sass</p>
                         </div>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>Chart.js</p>
+                            <p className='techName'>Chart.js</p>
                         </div>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>Socket.io</p>
+                            <p className='techName'>Socket.io</p>
                         </div>
                         <div className='skillsContent'>
                             <img></img>
-                            <p>Material Ui</p>
+                            <p className='techName'>Material Ui</p>
                         </div>
                     </ul>
                 </div>
             </div>
+        <h1 className='subtitle'>Projects</h1>
             <div id='projects' className='project'>
-                <h1 className='subtitle'>Projects</h1>
                 <div>
                     <h2>Personal Project</h2>
                     <h3>The Gauntlet</h3>
@@ -132,8 +132,8 @@ function Info(){
                     <Button href='https://github.com/Board-Game-Group-Project/Boardgames' target='newPage' variant='outlined' className={style.button}>Github Link</Button>
                 </div>
             </div>
-            <div id='contact'>
-                <h1 className='subtitle'>Contact</h1>
+            <div id='contact' className='contactInfo'>
+                <h1>Contact</h1>
                 <div className='linkButtons'>
                     <Button variant='outlined' size='large' target='newTab' href='https://github.com/DogSniffers' className={style.button}>GitHub</Button>
                     <Button variant='outlined' size='large' target='newTab' href='https://www.linkedin.com/in/noah-van-buskirk-221762161/' className={style.button}>LinkedIn</Button>

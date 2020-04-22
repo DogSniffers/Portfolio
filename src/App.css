@@ -1,5 +1,6 @@
 body {
-  background-color: #455a64;
+  background-image: -webkit-gradient(linear, left top, right top, from(#263238), color-stop(50%, #455a64), to(#263238));
+  background-image: linear-gradient(to right, #263238, #455a64 50%, #263238);
   color: #eceff1;
 }
 

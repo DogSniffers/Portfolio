@@ -7,8 +7,10 @@ import './Nav.css'
 
 const styles = makeStyles({
     navBar:{
-        backgroundColor:'#263238',
-
+        // backgroundColor:'#263238',
+        // backgroundImage:'linear-gradient(to right,#455a64 black)',
+        backgroundImage:'linear-gradient(to bottom right, #263238, #212121)',
+        borderBottom:'black 3px groove'
     },
     button:{
         color:'#212121',

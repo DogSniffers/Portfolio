@@ -15,14 +15,24 @@ body {
 
 .subtitle {
   font-family: "Comic Sans MS", cursive, sans-serif;
-  border-bottom: black 2px solid;
+  background-color: #78909c;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px;
+  border: black 2px solid;
+  border-radius: 8px;
 }
 
 .skillsSection {
   border: black 2px solid;
   border-radius: 8px;
   background-color: #78909c;
+  width: 75%;
   margin-bottom: 8px;
+  margin-left: 23vh;
+  -webkit-box-shadow: black 2px 2px 5px;
+          box-shadow: black 2px 2px 5px;
 }
 
 .project {
@@ -70,11 +80,25 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  border: black 2px solid;
+  border-radius: 8px;
   width: 160px;
   height: 160px;
+  color: darkblue;
+}
+
+.techName {
+  position: relative;
+  top: 115px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.contactInfo {
+  border: black 2px solid;
+  border-radius: 8px;
+  background-color: #78909c;
+  margin-top: 10px;
+  padding-bottom: 8px;
 }
 /*# sourceMappingURL=Info.css.map */

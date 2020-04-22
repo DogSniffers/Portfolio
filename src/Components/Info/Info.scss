@@ -13,12 +13,19 @@
 }
 .subtitle{
     @include titleText();
-    border-bottom: black 2px solid;
+    @include contentBackgroundColor();
+    width: fit-content;
+    padding: 5px;
+    @include borderAround();
 }
+
 .skillsSection{
     @include borderAround();
     @include contentBackgroundColor();
+    width: 75%;
     margin-bottom: 8px;
+    margin-left:23vh;
+    box-shadow: black 2px 2px 5px;
 }
 .project{
     @include borderAround();
@@ -38,7 +45,21 @@
 }
 .skillsContent{
     @include flex();
-    flex-direction: column;
+    @include borderAround();
+    // flex-direction: column;
     width: 160px;
     height: 160px;
+    color: darkblue;
+}
+.techName{
+    position: relative;
+    top: 115px;
+    font-size: larger;
+    font-weight: bold;
+}
+.contactInfo{
+    @include borderAround();
+    @include contentBackgroundColor();
+    margin-top: 10px;
+    padding-bottom: 8px;
 }
