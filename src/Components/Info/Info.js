@@ -46,6 +46,7 @@ function Info(){
             <div id='skills'>
                 <h1 className='subtitle'>Skills</h1>
                 <div className='skillsSection'>
+                    <div className='skillsBoxHolder'>
                     <h2 className='skillsTypeName'>Languages:</h2>
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
@@ -53,6 +54,7 @@ function Info(){
                             <p className='techName'>Javascript</p>
                         </div>
                     </ul>
+                    </div>
                 </div>
                 <div className='skillsSection'>
                     <h2 className='skillsTypeName'>Front-End:</h2>
@@ -118,8 +120,8 @@ function Info(){
         <div className='projectsHolder'>
             <div id='projects' className='project'>
                 <div>
-                    <h2>Personal Project</h2>
-                    <h3>The Gauntlet</h3>
+                    <h2 className='projectSubtitle'>Personal Project</h2>
+                    <h3 className='projectSubtitle'>The Gauntlet</h3>
                     <div className='projectInfo'>
                         <p>Project Info:</p>
                         <p>This was my Solo project through DevMountain. The app  utilized React, React Redux, Node.js, SQL tabs, and React-Router-Dom. Additionally I learned two additional technologies for this project, Sass and Chart.js.
@@ -131,8 +133,8 @@ function Info(){
                     </div>
                 </div>
                 <div className='projectInfo'>
-                    <h2>Group Project</h2>
-                    <h3>Boardgame App</h3>
+                    <h2 className='projectSubtitle'>Group Project</h2>
+                    <h3 className='projectSubtitle'>Boardgame App</h3>
                     <div className='projectInfo'>
                         <p>Project Info:</p>
                         <p></p>
@@ -147,11 +149,9 @@ function Info(){
                 </div>
             </div>
         </div>
+        <h1 className='subtitle'>Contact</h1>
         <div className='contactHolder'>
             <div id='contact' className='contactInfo'>
-                <div className='contactTitle'>
-                    <h1>Contact</h1>
-                </div>
                 <div className='linkButtons'>
                     <Button variant='outlined' size='large' target='newTab' href='https://github.com/DogSniffers' className={style.button}>GitHub</Button>
                     <Button variant='outlined' size='large' target='newTab' href='https://www.linkedin.com/in/noah-van-buskirk-221762161/' className={style.button}>LinkedIn</Button>
