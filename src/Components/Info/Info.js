@@ -47,7 +47,7 @@ function Info(){
                 <h1 className='subtitle'>Skills</h1>
                 <div className='skillsSection'>
                     <div className='skillsBoxHolder'>
-                    <h2 className='skillsTypeName'>Languages:</h2>
+                    <h2 className='skillsSubtitle'>Languages:</h2>
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
                             <img></img>
@@ -57,7 +57,7 @@ function Info(){
                     </div>
                 </div>
                 <div className='skillsSection'>
-                    <h2 className='skillsTypeName'>Front-End:</h2>
+                    <h2 className='skillsSubtitle'>Front-End:</h2>
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
                             <img></img>
@@ -74,7 +74,7 @@ function Info(){
                     </ul>
                 </div>
                 <div className='skillsSection'>
-                    <h2 className='skillsTypeName'>Back-End:</h2>
+                    <h2 className='skillsSubtitle'>Back-End:</h2>
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
                             <img></img>
@@ -91,7 +91,7 @@ function Info(){
                     </ul>
                 </div>
                 <div className='skillsSection'>
-                    <h2>Additional Technologies:</h2>
+                    <h2 className='skillsSubtitle'>Additional Technologies:</h2>
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
                             <img></img>

@@ -33,6 +33,11 @@ body {
   width: 100%;
 }
 
+.skillsSubtitle {
+  width: 100%;
+  text-align: center;
+}
+
 .skillsSection {
   border: black 2px solid;
   border-radius: 8px;
@@ -85,6 +90,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  padding-left: 0px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -103,7 +110,7 @@ body {
           justify-content: center;
   border: black 2px solid;
   border-radius: 8px;
-  width: 15%;
+  width: 10%;
   height: 200px;
   color: darkblue;
 }
