@@ -14,14 +14,19 @@
     @include borderAround();
     @include contentBackgroundColor();
     width: 100%;
+    padding:6px;
 }
 .subtitle{
     @include titleText();
     @include contentBackgroundColor();
-    width: fit-content;
+    width: 20%;
     padding: 5px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
     @include borderAround();
 }
+
 
 .skillsSection{
     @include borderAround();
@@ -56,8 +61,8 @@
     @include flex();
     @include borderAround();
     // flex-direction: column;
-    width: 160px;
-    height: 160px;
+    width: 15%;
+    height: 200px;
     color: darkblue;
 }
 .techName{
