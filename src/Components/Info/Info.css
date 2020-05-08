@@ -101,88 +101,88 @@ body {
 }
 
 .techImageJS {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 40%;
 }
 
 .techImageFrontendReact {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 23%;
 }
 
 .techImageFrontendHTML {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 28%;
 }
 
 .techImageFrontendCSS {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 18%;
 }
 
 .techImageNode {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 32%;
 }
 
 .techImageSQL {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 22%;
 }
 
 .techImageRedux {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 25%;
 }
 
 .techImageAxios {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 20%;
 }
 
 .techImageSass {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 20%;
 }
 
 .techImageChart {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 32%;
 }
 
 .techImageSocket {
-  width: 75px;
-  height: 75px;
+  width: 5.208333333333333vw;
+  height: 5.208333333333333vw;
   position: relative;
   top: 10px;
   left: 34%;
@@ -223,6 +223,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   margin-top: 10px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;

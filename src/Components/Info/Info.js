@@ -123,12 +123,15 @@ function Info(){
                     <h2 className='projectSubtitle'>Personal Project</h2>
                     <h3 className='projectSubtitle'>The Gauntlet</h3>
                     <div className='projectInfo'>
-                        <p>Project Info:</p>
+                        <h3>Project Info:</h3>
                         <p>This was my Solo project through DevMountain. The app  utilized React, React Redux, Node.js, SQL tabs, and React-Router-Dom. Additionally I learned two additional technologies for this project, Sass and Chart.js.
                         </p>
                         <p>The app itself is a game that can be infinitely generated, and allows the user to create and add their own creatures into the game. The game plays similarly to Pokemon, by which there are turns for the player, and then the creature and all attacks hold 'types', and every creature/class hold their own weaknesses and resistances to these types. I also was able to implement color theme changes into the app through the use of Redux and conditional classes.
                         </p>
-                        <Button href='https://github.com/DogSniffers/Personal-Project-The-Gauntlet' target='newPage' variant='outlined' className={style.projectLinkButton}>Github Link</Button>
+                        <div className='linkButtons'>
+                            <Button href='https://github.com/DogSniffers/Personal-Project-The-Gauntlet' target='newPage' variant='outlined' className={style.projectLinkButton}>Github Link</Button>
+                            <Button href='http://206.189.74.111:6542/' target='newPage' variant='outlined' className={style.projectLinkButton}>Hosted</Button>
+                        </div>
 
                     </div>
                 </div>
@@ -136,7 +139,7 @@ function Info(){
                     <h2 className='projectSubtitle'>Group Project</h2>
                     <h3 className='projectSubtitle'>Boardgame App</h3>
                     <div className='projectInfo'>
-                        <p>Project Info:</p>
+                        <h3>Project Info:</h3>
                         <p></p>
                         <p>This was my Group based project for DevMountain. The app
                             utilized React, React Redux, Node.js, SQL tabs, React-Router-Dom, and Material UI. Additionally for this project, I was able to learn and implement Socket.io.
@@ -145,7 +148,9 @@ function Info(){
                         </p>
                         <p>The app consists as a holder for online Boardgames. The initial plan for the app was to create chess, then add more games as we progressed. It proved difficult to implement chess, as there is a lot of behind the scenes logic that needs to be in place for each piece, so we were only able to get two games out before the due-date: Chess and Tic-Tac-Toe. My role in this project was to learn how to implement Socket.io into the app so that the user will be able to play with others online once the site is hosted. </p>
                     </div>
-                    <Button href='https://github.com/Board-Game-Group-Project/Boardgames' target='newPage' variant='outlined' className={style.projectLinkButton}>Github Link</Button>
+                    <div className='linkButtons'>
+                        <Button href='https://github.com/Board-Game-Group-Project/Boardgames' target='newPage' variant='outlined' className={style.projectLinkButton}>Github Link</Button>
+                    </div>
                 </div>
             </div>
         </div>

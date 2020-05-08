@@ -158,6 +158,7 @@
 }
 .linkButtons{
     @include flex();
+    align-content: center;
     margin-top: 10px;
     justify-content: space-evenly;
 }
