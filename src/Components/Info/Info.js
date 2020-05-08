@@ -50,7 +50,7 @@ function Info(){
                     <h2 className='skillsSubtitle'>Languages:</h2>
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
-                            <img src='https://cdn.iconscout.com/icon/free/png-512/javascript-20-555998.png' alt='JS' className='techImage'></img>
+                            <img src='https://cdn.iconscout.com/icon/free/png-512/javascript-20-555998.png' alt='JS' className='techImageJS'></img>
                             <p className='techName'>Javascript</p>
                         </div>
                     </ul>
@@ -77,15 +77,15 @@ function Info(){
                     <h2 className='skillsSubtitle'>Back-End:</h2>
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
-                            <img src='https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg' alt='NodeJS' className='techImage'></img>
+                            <img src='https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg' alt='NodeJS' className='techImageNode'></img>
                             <p className='techName'>Node.js</p>
                         </div>
                         <div className='skillsContent'>
-                            <img src='https://cdn2.iconfinder.com/data/icons/programming-50/64/206_programming-sql-data-database-512.png' alt='SQL Tabs' className='techImage'></img>
+                            <img src='https://cdn2.iconfinder.com/data/icons/programming-50/64/206_programming-sql-data-database-512.png' alt='SQL Tabs' className='techImageSQL'></img>
                             <p className='techName'>SQL Tabs</p>
                         </div>
                         <div className='skillsContent'>
-                            <img src='https://cdn.iconscout.com/icon/free/png-256/redux-283024.png' alt='Redux' className='techImage'></img>
+                            <img src='https://cdn.iconscout.com/icon/free/png-256/redux-283024.png' alt='Redux' className='techImageRedux'></img>
                             <p className='techName'>React Redux</p>
                         </div>
                     </ul>
@@ -94,23 +94,23 @@ function Info(){
                     <h2 className='skillsSubtitle'>Additional Technologies:</h2>
                     <ul className='skillsLists'>
                         <div className='skillsContent'>
-                            <img src='https://static.axios.com/img/axios-icon.png' alt='Axios' className='techImage'></img>
+                            <img src='https://static.axios.com/img/axios-icon.png' alt='Axios' className='techImageAxios'></img>
                             <p className='techName'>Axios</p>
                         </div>
                         <div className='skillsContent'>
-                            <img src='https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/288_Sass-512.png' alt='Sass' className='techImage'></img>
+                            <img src='https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/288_Sass-512.png' alt='Sass' className='techImageSass'></img>
                             <p className='techName'>Sass</p>
                         </div>
                         <div className='skillsContent'>
-                            <img src='https://www.saashub.com/images/app/service_logos/17/43137ded8e56/large.png?1540615225' alt='ChartJS' className='techImage'></img>
+                            <img src='https://www.saashub.com/images/app/service_logos/17/43137ded8e56/large.png?1540615225' alt='ChartJS' className='techImageChart'></img>
                             <p className='techName'>Chart.js</p>
                         </div>
                         <div className='skillsContent'>
-                            <img src='https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg' alt='SocketIO' className='techImage'></img>
+                            <img src='https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg' alt='SocketIO' className='techImageSocket'></img>
                             <p className='techName'>Socket.io</p>
                         </div>
                         <div className='skillsContent'>
-                            <img src='https://material-ui.com/static/logo.png' alt='MaterialUI' className='techImage'></img>
+                            <img src='https://material-ui.com/static/logo.png' alt='MaterialUI' className='techImageMaterial'></img>
                             <p className='techName'>Material Ui</p>
                         </div>
                     </ul>

@@ -5,6 +5,9 @@
 @mixin contentBackgroundColor(){
     background-color: #e57373;
 }
+@mixin contentBackgroundColorAlt(){
+    background-color: #f44336;
+}
 @mixin titleText(){
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -23,4 +26,8 @@
 }
 @mixin divBackground(){
     background-color: darkblue;
+}
+@mixin techImageSize(){
+    width: 75px;
+    height: 75px;
 }

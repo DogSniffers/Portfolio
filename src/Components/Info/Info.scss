@@ -34,13 +34,37 @@
 }
 .skillsSection{
     @include borderAround();
-    @include contentBackgroundColor();
+    @include contentBackgroundColorAlt();
     width: 75%;
     margin-bottom: 8px;
     margin-left: 12.5%;
     box-shadow: black 2px 2px 5px;
     display: flex;
     flex-direction: column;
+}
+.skillsLists{
+    @include flex();
+    width: 100%;
+    padding-left: 0px;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.skillsContent{
+    @include flex();
+    @include borderAround();
+    @include contentBackgroundColor();
+    // flex-direction: column;
+    justify-content: center;
+    width: 10%;
+    height: 200px;
+    color: #dd2c00;
+}
+.techName{
+    position: relative;
+    top: 115px;
+    left:-38px;
+    font-size: larger;
+    font-weight: bold;
 }
 .techImage{
     position: relative;
@@ -49,26 +73,77 @@
     width: 75px;
     height: 75px;
 }
+.techImageJS{
+    @include techImageSize();
+    position: relative;
+    top: 10px;
+    left: 40%;
+}
 .techImageFrontendReact{
+    @include techImageSize();
     position: relative;
     top: 10px;
     left: 23%;
-    width: 75px;
-    height: 75px;
 }
 .techImageFrontendHTML{
+    @include techImageSize();
     position: relative;
     top: 10px;
     left: 28%;
-    width: 75px;
-    height: 75px;
 }
 .techImageFrontendCSS{
+    @include techImageSize();
     position: relative;
     top: 10px;
     left: 18%;
-    width: 75px;
-    height: 75px;
+}
+.techImageNode{
+    @include techImageSize();
+    position: relative;
+    top: 10px;
+    left: 32%;
+}
+.techImageSQL{
+    @include techImageSize();
+    position: relative;
+    top: 10px;
+    left: 22%;
+}
+.techImageRedux{
+    @include techImageSize();
+    position: relative;
+    top: 10px;
+    left: 25%;
+}
+.techImageAxios{
+    @include techImageSize();
+    position: relative;
+    top: 10px;
+    left: 20%;
+}
+.techImageSass{
+    @include techImageSize();
+    position: relative;
+    top: 10px;
+    left: 20%;
+}
+.techImageChart{
+    @include techImageSize();
+    position: relative;
+    top: 10px;
+    left: 32%;
+}
+.techImageSocket{
+    @include techImageSize();
+    position: relative;
+    top: 10px;
+    left: 34%;
+}
+.techImageMaterial{
+    @include techImageSize();
+    position: relative;
+    top: 10px;
+    left: 34%;
 }
 
 .projectsHolder{
@@ -91,29 +166,6 @@
     @include flex();
     margin-top: 10px;
     justify-content: space-evenly;
-}
-.skillsLists{
-    @include flex();
-    width: 100%;
-    padding-left: 0px;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-.skillsContent{
-    @include flex();
-    @include borderAround();
-    // flex-direction: column;
-    justify-content: center;
-    width: 10%;
-    height: 200px;
-    color: #dd2c00;
-}
-.techName{
-    position: relative;
-    top: 115px;
-    left:-35px;
-    font-size: larger;
-    font-weight: bold;
 }
 .contactInfo{
     @include borderAround();

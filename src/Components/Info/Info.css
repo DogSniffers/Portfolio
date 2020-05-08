@@ -43,7 +43,7 @@ body {
 .skillsSection {
   border: black 2px solid;
   border-radius: 8px;
-  background-color: #e57373;
+  background-color: #f44336;
   width: 75%;
   margin-bottom: 8px;
   margin-left: 12.5%;
@@ -58,6 +58,48 @@ body {
           flex-direction: column;
 }
 
+.skillsLists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding-left: 0px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.skillsContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: black 2px solid;
+  border-radius: 8px;
+  background-color: #e57373;
+  justify-content: center;
+  width: 10%;
+  height: 200px;
+  color: #dd2c00;
+}
+
+.techName {
+  position: relative;
+  top: 115px;
+  left: -38px;
+  font-size: larger;
+  font-weight: bold;
+}
+
 .techImage {
   position: relative;
   top: 10px;
@@ -66,28 +108,100 @@ body {
   height: 75px;
 }
 
+.techImageJS {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 40%;
+}
+
 .techImageFrontendReact {
+  width: 75px;
+  height: 75px;
   position: relative;
   top: 10px;
   left: 23%;
-  width: 75px;
-  height: 75px;
 }
 
 .techImageFrontendHTML {
+  width: 75px;
+  height: 75px;
   position: relative;
   top: 10px;
   left: 28%;
-  width: 75px;
-  height: 75px;
 }
 
 .techImageFrontendCSS {
+  width: 75px;
+  height: 75px;
   position: relative;
   top: 10px;
   left: 18%;
+}
+
+.techImageNode {
   width: 75px;
   height: 75px;
+  position: relative;
+  top: 10px;
+  left: 32%;
+}
+
+.techImageSQL {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 22%;
+}
+
+.techImageRedux {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 25%;
+}
+
+.techImageAxios {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 20%;
+}
+
+.techImageSass {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 20%;
+}
+
+.techImageChart {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 32%;
+}
+
+.techImageSocket {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 34%;
+}
+
+.techImageMaterial {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 34%;
 }
 
 .projectsHolder {
@@ -122,47 +236,6 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-}
-
-.skillsLists {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  padding-left: 0px;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.skillsContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border: black 2px solid;
-  border-radius: 8px;
-  justify-content: center;
-  width: 10%;
-  height: 200px;
-  color: #dd2c00;
-}
-
-.techName {
-  position: relative;
-  top: 115px;
-  left: -35px;
-  font-size: larger;
-  font-weight: bold;
 }
 
 .contactInfo {
