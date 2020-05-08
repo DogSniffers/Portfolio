@@ -89,7 +89,7 @@ body {
   justify-content: center;
   width: 10%;
   height: 200px;
-  color: #dd2c00;
+  color: black;
 }
 
 .techName {
@@ -98,14 +98,6 @@ body {
   left: -38px;
   font-size: larger;
   font-weight: bold;
-}
-
-.techImage {
-  position: relative;
-  top: 10px;
-  left: 45%;
-  width: 75px;
-  height: 75px;
 }
 
 .techImageJS {
@@ -197,9 +189,8 @@ body {
 }
 
 .techImageMaterial {
-  width: 75px;
-  height: 75px;
   position: relative;
+  height: 75px;
   top: 10px;
   left: 34%;
 }

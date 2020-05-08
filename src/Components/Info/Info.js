@@ -35,10 +35,10 @@ function Info(){
                 <div className='aboutMeHolder'>
                     <div className='aboutMe'>
                             <h2>About me:</h2>
-                                <p>I've always had an interest in Computer technology, beginning at a young age with the introduction to PC gaming. I found enjoyment in figuring out ways to apply already made mods into games or apps, which itself created a lot of room for the game or app itself to begin to break which then required me to figure out ways to fix the program, or simply learn new ways to edit and manage basic file structure bugs. </p>
+                                <p>I've always had an interest in Computer technology, beginning at a young age with the introduction to PC gaming. I found enjoyment in figuring out ways to apply mods into games, which itself created a lot of room for the game to begin to break which then required me to figure out ways to fix the program, or simply learn new ways to edit and manage basic file structure bugs. </p>
                                 <p>Web Development has been extremely fun for me, as it's fascinating learning new technologies and being able to analyze potential ways that companies have set up their own software, and learning ways to apply these technologies into my own apps.
                                 </p>
-                                <p>I consider myself a creative individual, with deep interests in the arts, experimenting in drawing, instrument, and music production softwares. Web Development has giving me an excellent outlet for experimentation and implementation of my ideas in a more virtual sense, and even allows me to express these ideas in ways that I never thought possible!
+                                <p>I consider myself a creative individual, with deep interests in the arts, experimenting in drawing, instruments, and music production softwares. Web Development has given me an excellent outlet for experimentation and implementation of my ideas in a more virtual sense, and even allows me to express these ideas in ways that I never thought possible!
                                 </p>
                 </div>
             </div>
@@ -111,7 +111,7 @@ function Info(){
                         </div>
                         <div className='skillsContent'>
                             <img src='https://material-ui.com/static/logo.png' alt='MaterialUI' className='techImageMaterial'></img>
-                            <p className='techName'>Material Ui</p>
+                            <p className='techName'>Material UI</p>
                         </div>
                     </ul>
                 </div>

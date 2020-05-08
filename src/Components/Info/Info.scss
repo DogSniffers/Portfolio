@@ -57,7 +57,7 @@
     justify-content: center;
     width: 10%;
     height: 200px;
-    color: #dd2c00;
+    color: black;
 }
 .techName{
     position: relative;
@@ -66,13 +66,7 @@
     font-size: larger;
     font-weight: bold;
 }
-.techImage{
-    position: relative;
-    top: 10px;
-    left: 45%;
-    width: 75px;
-    height: 75px;
-}
+
 .techImageJS{
     @include techImageSize();
     position: relative;
@@ -140,12 +134,12 @@
     left: 34%;
 }
 .techImageMaterial{
-    @include techImageSize();
     position: relative;
+    // width: 75px;
+    height: 75px;
     top: 10px;
     left: 34%;
 }
-
 .projectsHolder{
     width: 60%;
     margin-left: 20%;
