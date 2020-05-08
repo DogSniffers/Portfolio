@@ -39,7 +39,38 @@
     margin-bottom: 8px;
     margin-left: 12.5%;
     box-shadow: black 2px 2px 5px;
+    display: flex;
+    flex-direction: column;
 }
+.techImage{
+    position: relative;
+    top: 10px;
+    left: 45%;
+    width: 75px;
+    height: 75px;
+}
+.techImageFrontendReact{
+    position: relative;
+    top: 10px;
+    left: 23%;
+    width: 75px;
+    height: 75px;
+}
+.techImageFrontendHTML{
+    position: relative;
+    top: 10px;
+    left: 28%;
+    width: 75px;
+    height: 75px;
+}
+.techImageFrontendCSS{
+    position: relative;
+    top: 10px;
+    left: 18%;
+    width: 75px;
+    height: 75px;
+}
+
 .projectsHolder{
     width: 60%;
     margin-left: 20%;
@@ -72,6 +103,7 @@
     @include flex();
     @include borderAround();
     // flex-direction: column;
+    justify-content: center;
     width: 10%;
     height: 200px;
     color: #dd2c00;
@@ -79,6 +111,7 @@
 .techName{
     position: relative;
     top: 115px;
+    left:-35px;
     font-size: larger;
     font-weight: bold;
 }
