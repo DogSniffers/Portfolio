@@ -13,18 +13,20 @@ body {
 .aboutMe {
   border: black 2px solid;
   border-radius: 8px;
-  background-color: #78909c;
+  background-color: #e57373;
   width: 100%;
   padding: 6px;
 }
 
 .subtitle {
   font-family: "Comic Sans MS", cursive, sans-serif;
-  background-color: #78909c;
+  background-color: #e57373;
   width: 20%;
   padding: 5px;
   margin-left: 40%;
   text-align: center;
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
   border: black 2px solid;
   border-radius: 8px;
 }
@@ -41,7 +43,7 @@ body {
 .skillsSection {
   border: black 2px solid;
   border-radius: 8px;
-  background-color: #78909c;
+  background-color: #e57373;
   width: 75%;
   margin-bottom: 8px;
   margin-left: 12.5%;
@@ -63,7 +65,7 @@ body {
 .project {
   border: black 2px solid;
   border-radius: 8px;
-  background-color: #78909c;
+  background-color: #e57373;
 }
 
 .projectInfo {
@@ -112,7 +114,7 @@ body {
   border-radius: 8px;
   width: 10%;
   height: 200px;
-  color: darkblue;
+  color: #dd2c00;
 }
 
 .techName {
@@ -125,7 +127,7 @@ body {
 .contactInfo {
   border: black 2px solid;
   border-radius: 8px;
-  background-color: #78909c;
+  background-color: #e57373;
   margin-top: 10px;
   padding-bottom: 10px;
 }

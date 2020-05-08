@@ -6,22 +6,22 @@ import './Info.css'
 const styles = makeStyles({
     button:{
         color:'#212121',
-        backgroundColor:'#424242',
+        backgroundColor:'#dd2c00',
         border:'2',
         width:'18vh',
         '&:hover':{
-            backgroundColor:'#616161'
+            backgroundColor:'#bf360c'
         }
     },
     projectLinkButton:{
         color:'#212121',
-        backgroundColor:'#424242',
+        backgroundColor:'#dd2c00',
         border:'2',
         width:'18vh',
         marginLeft:'10px',
         marginBottom:'10px',
         '&:hover':{
-            backgroundColor:'#616161'
+            backgroundColor:'#bf360c'
         }
     }
 })

@@ -9,18 +9,18 @@ const styles = makeStyles({
     navBar:{
         // backgroundColor:'#263238',
         // backgroundImage:'linear-gradient(to right,#455a64 black)',
-        backgroundImage:'linear-gradient(to bottom right, #263238, #212121)',
+        backgroundImage:'linear-gradient(to bottom right, #801313, #b71c1c)',
         borderBottom:'black 3px groove'
     },
     button:{
         color:'#212121',
-        backgroundColor:'#424242',
+        backgroundColor:'#ef9a9a',
         border:'2',
         width:'14vh',
         padding:'5px',
         margin:'5px',
         '&:hover':{
-            backgroundColor:'#616161'
+            backgroundColor:'#e57373'
         }
     }
 })
@@ -37,9 +37,10 @@ const styles = makeStyles({
     <AppBar className={style.navBar}>
         <div>
             <h1 className='name'>Noah Van Buskirk</h1>
+            <img src='https://media-exp1.licdn.com/dms/image/C5603AQGuNcfcplfggA/profile-displayphoto-shrink_200_200/0?e=1594252800&v=beta&t=cg-mmDhYcYWVErDLFE3mum39b4CdkyoNdIjXKUF7vCI' alt='Me' className='pictureOfMe'></img>
             <AnchorLink href='#info' offset='130px'><Button className={style.button}>Info</Button></AnchorLink>
             <AnchorLink href='#skills' offset='130px'><Button className={style.button}>Skills</Button></AnchorLink>
-            <AnchorLink href='#projects' offset='130px'><Button className={style.button}>Projects</Button></AnchorLink>
+            <AnchorLink href='#projects' offset='210px'><Button className={style.button}>Projects</Button></AnchorLink>
             <AnchorLink href='#contact'><Button className={style.button}>Contact</Button></AnchorLink>
         </div>
     </AppBar>
